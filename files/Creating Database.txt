@@ -1,0 +1,24 @@
+Simple Steps to Create Database:
+1. Download XAMPP into your PC
+2. Open it and start MYSQL and APACHE 
+3. Create Database called ntakomisiyo_db 
+4. Then IMPORT ntakomisiyo_db.sql on this Location with this text FILE
+
+Then you are good to GO
+
+
+                                                     NTAKOMISIYO DATABASE
+                                                 =========================
+CREATE TABLE `ntakomisiyo_db`.`ntakomisiyo_users` (`user_id` INT(11) NOT NULL AUTO_INCREMENT , `user_names` VARCHAR(128) NOT NULL , `user_email` VARCHAR(128) NOT NULL , `user_password` VARCHAR(128) NOT NULL , PRIMARY KEY (`user_id`)) ENGINE = InnoDB;
+
+
+  INSERT INTO `ntakomisiyo_users` (`user_id`, `user_names`, `user_email`, `user_password`) VALUES (NULL, 'Your Name', 'youremail@gmail.com', 'yourpassword');
+
+
+
+
+CREATE TABLE `ntakomisiyo_db`.`ntakomisiyo_items` (`item_id` INT NOT NULL AUTO_INCREMENT , `item_name` VARCHAR(128) NOT NULL , `item_image` VARCHAR(128) NOT NULL , `item_price` INT(11) NOT NULL , `item_specification` TEXT NOT NULL , `item_owner_email` VARCHAR(128) NOT NULL , `item_owner_address` TEXT NOT NULL , PRIMARY KEY
+
+
+   INSERT INTO `ntakomisiyo_items` (`item_id`, `item_name`, `item_image`, `item_price`, `item_specification`, `item_owner_email`, `item_owner_address`) VALUES (NULL, 'Your item Name', 'image1.jpg', '100000', '<br><br>Battery: 4000mAh<br><br>\r\n\r\nROM: 32GB<br><br>\r\n\r\nRAM: 2GB<br><br>', 'youremail@gmail.com', '<br><br>\r\nPhone: 0735177666<br><br>\r\nWhatsApp: 0735177666<br><br>\r\nLocation: Kigali<br><br>');
+
